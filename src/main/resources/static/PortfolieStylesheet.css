@@ -1,0 +1,98 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-gap: 10px;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    font-family: "Helvetica Neue", serif;
+}
+
+.header {
+    background-color: #3e3e3e;
+    font-size: 50px;
+    font-family: Courier New;
+    padding: 35px;
+    color: aqua;
+    text-align: center;
+    line-height: 12px;
+    font-weight: bold;
+    grid-column: 1/4;
+}
+
+.text-area1 {
+    font-size: 20px;
+    font-family: "Courier New";
+    color: aqua;
+    text-align: center;
+    font-weight: inherit;
+    line-height: 30px;
+    padding: 35px;
+    background-color: #3e3e3e;
+    grid-column: 1/4;
+}
+
+.text-area2 {
+    font-size: 15px;
+    font-family: "Courier New";
+    color: aqua;
+    font-weight: revert;
+    text-align: center;
+    line-height: 30px;
+    grid-column: 1/1;
+    grid-row: 3;
+    background-color: #3e3e3e
+}
+
+.text-area3 {
+    font-size: 15px;
+    font-family: "Courier New";
+    color: aqua;
+    font-weight: revert;
+    text-align: center;
+    line-height: 30px;
+    grid-column: 2/2;
+    grid-row: 3;
+    background-color: #3e3e3e
+}
+
+ul1 {
+    font-size: 12px;
+    font-family: "Courier New";
+    color: aqua;
+    font-weight: inherit;
+    text-align: center;
+    line-height: 30px;
+    grid-column: 1/1;
+    grid-row: 3;
+}
+
+ul2 {
+    font-size: 12px;
+    font-family: "Courier New";
+    color: aqua;
+    text-align: center;
+    font-weight: inherit;
+    line-height: 30px;
+    grid-column: 2/2;
+    grid-row: 3;
+}
+
+body {
+    background-color: #7da6dc;
+}
+
+.picture-area {
+    text-align: match-parent;
+    grid-column: 3/3;
+    background-color: #3e3e3e
+
+}
+
+.footer {
+   line-height: 10px;
+    text-align: end;
+    grid-row: 4;
+    grid-column: 1/4;
+}
