@@ -6,15 +6,14 @@
     height: 400px;
     width: 80%;
     margin: auto;
-    font-family: "Helvetica Neue", serif;
 }
 
 .header {
-    background-color: #3e3e3e;
+    background-color: rgba(0, 0, 0, 0.28);
     font-size: 50px;
     font-family: Courier New;
     padding: 35px;
-    color: aqua;
+    color: rgba(0, 0, 0, 0.98);
     text-align: center;
     line-height: 12px;
     font-weight: bold;
@@ -24,75 +23,77 @@
 .text-area1 {
     font-size: 20px;
     font-family: "Courier New";
-    color: aqua;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.98);
     text-align: center;
     font-weight: inherit;
     line-height: 30px;
     padding: 35px;
-    background-color: #3e3e3e;
+    background-color: rgba(0, 0, 0, 0.28);
     grid-column: 1/4;
 }
 
 .text-area2 {
     font-size: 15px;
     font-family: "Courier New";
-    color: aqua;
+    color: rgba(0, 0, 0, 0.98);
     font-weight: revert;
-    text-align: center;
     line-height: 30px;
     grid-column: 1/1;
     grid-row: 3;
-    background-color: #3e3e3e
+    background-color: rgba(0, 0, 0, 0.28);
+    padding: 20px;
+
 }
 
 .text-area3 {
     font-size: 15px;
     font-family: "Courier New";
-    color: aqua;
+    color: rgba(0, 0, 0, 0.98);
     font-weight: revert;
-    text-align: center;
     line-height: 30px;
     grid-column: 2/2;
     grid-row: 3;
-    background-color: #3e3e3e
+    background-color: rgba(0, 0, 0, 0.28);
+    padding: 20px;
 }
 
-ul1 {
-    font-size: 12px;
-    font-family: "Courier New";
-    color: aqua;
-    font-weight: inherit;
-    text-align: center;
-    line-height: 30px;
-    grid-column: 1/1;
-    grid-row: 3;
-}
-
-ul2 {
-    font-size: 12px;
-    font-family: "Courier New";
-    color: aqua;
-    text-align: center;
-    font-weight: inherit;
-    line-height: 30px;
-    grid-column: 2/2;
-    grid-row: 3;
-}
 
 body {
-    background-color: #7da6dc;
+    background-color: #5d9764;
 }
 
 .picture-area {
     text-align: match-parent;
     grid-column: 3/3;
-    background-color: #3e3e3e
-
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.28);
+    line-height: 20px;
+    padding: 20px;
 }
 
 .footer {
-   line-height: 10px;
-    text-align: end;
+    line-height: 20px;
+    padding: 20px;
+    text-align: center;
     grid-row: 4;
-    grid-column: 1/4;
+    grid-column: 2/2;
 }
+
+.links {
+    height: 100px;
+    grid-row: 5;
+    grid-column: 2/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#gitlogo{grid-column: 1/2;}
+#fblogo{grid-column: 2/3;}
+#instalogo{grid-column: 3/4;}
+
+
